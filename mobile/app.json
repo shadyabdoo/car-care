@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Car Care",
+    "slug": "car-care",
+    "scheme": "carcare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "API_URL": "http://192.168.1.7:5000/api"
+    },
+    "android": {
+      "package": "com.carcare.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.carcare.app"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "car-care",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "mobile"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix mobile run start\"",
+    "backend": "npm --prefix backend run dev",
+    "mobile": "npm --prefix mobile run start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
